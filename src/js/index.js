@@ -1,1 +1,3 @@
-console.log('js is connected')
+// import '../style/style.scss';
+
+// console.log('js is connected')

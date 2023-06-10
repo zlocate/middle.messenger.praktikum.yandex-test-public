@@ -1,0 +1,31 @@
+.profile {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    .profile_goBack{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 64px;
+        border: 0px;
+        background-color: #FBFBFB;
+        cursor: pointer;
+    }
+
+    .profile_mainContainer {
+        padding-top: 60px;
+        width: 510px;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        
+        
+    }
+}
+

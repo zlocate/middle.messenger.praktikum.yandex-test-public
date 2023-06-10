@@ -4,21 +4,9 @@ import handlebars from 'vite-plugin-handlebars';
 
 export default defineConfig({
     build: {
-        outDir: resolve(__dirname, 'dist'),
+        outDir: resolve(__dirname, 'build'),
         rollupOptions: {
-            input: {
-                main: resolve(__dirname, './index.html'),
-                registration: resolve(__dirname, 'src/pages/Registration.html'),
-                chat: resolve(__dirname, 'src/pages/Chat.html')
-            },
+            input: resolve(__dirname, './index.html'),
         }
     },
-    plugins: [handlebars({
-        partialDirectory: resolve(__dirname, 'src/pages'),
-        context: {
-            greetings: 'start page',
-            Registration: 'Registration Page',
-            Chat: 'Chat page'
-        }
-    })],
 }) 
