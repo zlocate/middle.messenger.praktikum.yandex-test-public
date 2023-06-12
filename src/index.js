@@ -32,7 +32,5 @@ document.addEventListener('DOMContentLoaded', () => {
                 return Error({errorCode: 404, messageToClient: "Не туда попали"});
         }
     }
-
     root.innerHTML = getPage();
-})
-
+});
