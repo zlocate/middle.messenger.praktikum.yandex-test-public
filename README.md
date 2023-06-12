@@ -7,4 +7,4 @@
     npm run start - запуск сервера с раздачей статики  
 
 Ссылка на  Netlify:  
-https://taupe-speculoos-7d0bd2.netlify.app/  
+https://celadon-llama-bb9821.netlify.app/
