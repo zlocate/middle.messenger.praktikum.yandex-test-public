@@ -1,10 +1,10 @@
-import { Modal } from '../../components/modal';
+import { Card } from '../../components/card';
 import { Input } from "../../components/input/index";
 import { Button } from "../../components/button/index";
 
 export const login = `
-    ${Modal({ 
-        style: "modal",
+    ${Card({ 
+        style: "card",
         title: "Sign in",
         inputs: [
             Input({ style: "input", type: "text", placeholder: "login" }),

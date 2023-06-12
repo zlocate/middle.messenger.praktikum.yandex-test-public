@@ -1,18 +1,17 @@
-import "./modal.scss";
-import { Button } from "../button/index";
+import "./card.scss";
 
-export const modal = `
+export const card = `
 <form class={{style}}>
-    <div class="modalBlock">
+    <div class="cardBlock">
         <h2>{{title}}</h2>
 
-        <div class="modalContent">
+        <div class="cardContent">
             {{#each inputs}}
                 {{{this}}}
             {{/each}}
         </div>
        
-        <div class="modalFooter">
+        <div class="cardFooter">
             {{#each buttons}}
                 {{{this}}}
             {{/each}}

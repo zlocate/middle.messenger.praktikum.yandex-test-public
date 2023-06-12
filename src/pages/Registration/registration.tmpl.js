@@ -1,10 +1,10 @@
-import { Modal } from '../../components/modal';
+import { Card } from '../../components/card';
 import { Input } from "../../components/input/index";
 import { Button } from "../../components/button/index";
 
 export const registration = `
-${Modal({ 
-    style: 'modal',
+${Card({ 
+    style: 'card',
     title: 'Registration',
     inputs: [
         Input({ style: "input", type: "email", placeholder: "email" }),
