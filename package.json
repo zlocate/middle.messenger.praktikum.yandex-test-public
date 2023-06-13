@@ -1,0 +1,23 @@
+{
+  "name": "ya1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=v18.16.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite build && node ./server.js "
+  },
+  "devDependencies": {
+    "express": "^4.18.2",
+    "sass": "^1.63.2",
+    "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "vite-plugin-handlebars": "^1.6.0"
+  }
+}
